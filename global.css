@@ -1,0 +1,38 @@
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+:root{
+
+  --w: #FFFFFF;
+  --p1:#FFBFCB;
+  --p2:#D598A4;
+  --p3:#AB717D;
+  --p4:#804A57;
+  --p5:#562330;
+
+  --c1:
+  --c2:
+  --c3:
+  --c4:
+  --c5:
+  --c6:
+  --c7:
+  --c8:
+  --c9:
+  --c10:#272727;
+  --c10: #212121;
+  --c11:#141414;
+  --c12:#000000;
+}
