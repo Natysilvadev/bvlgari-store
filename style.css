@@ -1,4 +1,6 @@
-@import url(./global.css);
+@import url(./global.css/reset.css);
+@import url(./global.css/root.css);
+@import url(/global.css/header&introducao.css);
 
 .header-bg{
  background: var(--c12);
@@ -108,6 +110,10 @@ align-items: center;
   color: var(--c4);
 }
 
+.introducao span{
+  color: var(--p1);
+
+}
 @media (max-width: 1200px){
   .introducao h1{
     font-size: 3rem;
