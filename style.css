@@ -54,7 +54,7 @@ transition: 0.3s;
 .introducao{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0px 40px;
+  gap: 0px 0px;
   align-items: center;
   box-sizing: border-box;
   max-width: 1200px;
@@ -88,22 +88,106 @@ align-items: center;
 }
 
 .introducao a{
-  color: var(--c4);
+  display: inline-block;
+  color: var(--c12);
+  background: linear-gradient(#FFBFCB, #EAABB7 28%,#D598A4 58%);
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-family: var(--fonte-secundaria);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.introducao a:hover{
+  background: linear-gradient(#FFBFCB, #F09EAE 28%,#D88596 58%);
 }
 
 .introducao img{
   color: var(--c4);
 }
 
-@media(max-width:800px){
+@media (max-width: 1200px){
+  .introducao h1{
+    font-size: 3rem;
+  }
+
+  .introducao p{
+    font-size: 1rem;
+  }
+
+  .introducao a{
+    font-size: 0.9rem;
+  }
+}
+
+@media(max-width:1000px){
+  .introducao h1{
+    margin-bottom: 25px;
+  }
+
+  .introducao p{
+    margin-bottom: 25px;
+  }
+
+  introducao a{
+    font-size: 0.9rem;
+  }
+}
+
+@media(max-width:850px){
   .header a:after{
+    display: none;
+  }
+  .introducao h1{
+    font-size: 2.7rem;
+  }
+
+  .introducao p{
+    font-size: 0.9rem;
+  }
+
+  .introducao a{
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width:700px){
+
+  .introducao-bg{
+    padding-top: 30px;
+  }
+
+  .introducao{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .introducao h1{
+    font-size: 2.5rem;
+  }
+
+  .introducao p{
+    text-align: start;
+  }
+
+  .introducao img{
+    /* margin-left: -40px; */
+    margin-top: -30px;
+    margin-left: 30px;
+    width: 70%
+  }
+  br{
     display: none;
   }
 }
 
-@media (max-width: 510px ){
+@media (max-width: 560px ){
   .header{
-    justify-content: center;
+    justify-content: center !important;
+    align-items: center;
+    /* text-align: center; */
   }
 
   .header-menu{
@@ -114,6 +198,17 @@ align-items: center;
     padding: 0px;
   }
 
+  .introducao p{
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px ){
+  .introducao img{
+    margin-top: -10px;
+    width: 100%;
+    margin-left: -30px;
+  }
 }
 
 
