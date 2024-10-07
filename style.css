@@ -204,10 +204,10 @@ align-items: center;
 }
 
 @media (max-width: 400px ){
-  .introducao img{
-    margin-top: -10px;
-    width: 100%;
-    margin-left: -30px;
+   .introducao img{
+    margin-top: -20px;
+    margin-left: 30px;
+    width: 70%
   }
 }
 
