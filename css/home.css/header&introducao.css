@@ -107,9 +107,17 @@
 }
 
 @media (max-width: 537px) {
+  .introducao {
+    border-bottom: 5px solid var(--p1);
+  }
   .introducao img {
     display: none;
   }
+
+  .botao {
+    display: none;
+  }
+
   .header {
     justify-content: center;
     align-items: center;
