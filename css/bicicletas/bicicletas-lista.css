@@ -59,9 +59,17 @@
 @media (max-width: 800px) {
   .relogios-lista {
     padding-bottom: 50px;
+    padding-top: 50px;
   }
 
   .relogios-lista ul {
     gap: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .relogios-lista {
+    padding-bottom: 50px;
+    padding-top: 20px;
   }
 }

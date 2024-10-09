@@ -1,92 +1,91 @@
-:root{
+:root {
   --fonte-principal: "roboto", sans-serif;
   --fonte-secundaria: "poppins", sans-serif;
   --fonte-terciaria: "Fira Mono", sans-serif;
   --fonte-citacao: "Source Serif 4", sans-serif;
 }
-.font-1-xxl{
+.font-1-xxl {
   font: 600 3.5rem/1.125 var(--fonte-secundaria);
 }
 
-.font-2-xl{
-font: 700 2rem/1.35 var(--fonte-terciaria);
+.font-2-xl {
+  font: 700 2rem/1.35 var(--fonte-terciaria);
 }
 
-.font-1-xl{
+.font-1-xl {
   font: 600 2rem/1.25 var(--fonte-secundaria);
 }
 
-.font-1-l{
+.font-1-l {
   font: 500 1.5rem/1.5 var(--fonte-secundaria);
 }
 
-.font-2-l{
+.font-2-l {
   font: 1.1rem/1.5 var(--fonte-principal);
 }
 
-.font-2-l-b{
+.font-2-l-b {
   font: 500 1.5rem/1.5 var(--fonte-principal);
 }
 
-.font-1-m{
-  font: 500  1.125rem/1.35 var(--fonte-secundaria);
+.font-1-m {
+  font: 500 1.125rem/1.35 var(--fonte-secundaria);
 }
 
-.font-1-m-b{
-font: 700 1.5rem/1.34 var(--fonte-secundaria);
+.font-1-m-b {
+  font: 700 1.5rem/1.34 var(--fonte-secundaria);
 }
 
-.font-2-m{
-  font: 500 1.5rem/1.35 var(--fonte-principal);
+.font-2-m {
+  font: 500 1.125rem/1.35 var(--fonte-principal);
 }
 
-.font-1-s{
+.font-1-s {
   font: 500 1.5rem/1.35 var(--fonte-secundaria);
 }
 
-.font-2-s{
+.font-2-s {
   font: 1rem/1.5 var(--fonte-principal);
 }
 
-.font-2-xs{
+.font-2-xs {
   font: italic 2.5rem/1.25 var(--fonte-citacao);
 }
 
-.font-1-xs{
+.font-1-xs {
   font: 600 0.75rem/1.35 var(--fonte-secundaria);
 }
 
-@media (max-width: 1200px){
-  .font-1-xxl{
+@media (max-width: 1200px) {
+  .font-1-xxl {
     font-size: 3rem;
   }
 
-  .font-2-l{
+  .font-2-l {
     font-size: 1rem;
   }
 
-  .font-1-m{
+  .font-1-m {
     font-size: 0.9rem;
   }
 }
 
-@media(max-width:850px){
-  .font-1-xxl{
+@media (max-width: 850px) {
+  .font-1-xxl {
     font-size: 2.7rem;
   }
 
-  .font-2-l{
+  .font-2-l {
     font-size: 0.9rem;
+  }
+
+  .font-1-xl {
+    font-size: 1.5rem;
   }
 }
 
-@media (max-width:700px){
-
-  .font-1-xxl{
+@media (max-width: 700px) {
+  .font-1-xxl {
     font-size: 2.5rem;
   }
 }
-
-
-
-
