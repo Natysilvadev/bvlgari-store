@@ -10,6 +10,17 @@
 .relogios-lista ul {
   display: flex;
   gap: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+
+.relogios-lista li {
+  min-width: 250px;
+  display: flex;
+  gap: 40px;
   padding: 0 20px;
   max-width: 1400px;
   margin-left: auto;
@@ -18,6 +29,7 @@
 
 .relogios-lista img {
   margin-bottom: 16px;
+  border-radius: 8px;
 }
 
 .relogios-lista h3 {
@@ -33,8 +45,23 @@
   height: 8px;
   width: 12px;
   margin-right: 8px;
+  transition: width 0.2s;
+}
+
+.relogios-lista a:hover h3::before {
+  width: 24px;
 }
 
 .relogios-lista li span {
   padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .relogios-lista {
+    padding-bottom: 50px;
+  }
+
+  .relogios-lista ul {
+    gap: 20px;
+  }
 }
