@@ -1,0 +1,145 @@
+.header-bg {
+  background: var(--c12);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 16px 0px;
+  position: relative;
+}
+
+.header-menu a:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background: var(--w);
+  margin-top: 5px;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.header-menu a:hover:after {
+  width: 100%;
+}
+
+.introducao-bg {
+  background: var(--c12);
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.introducao-conteudo {
+  align-items: center;
+}
+
+.introducao h1 {
+  margin-bottom: 32px;
+}
+
+.introducao p {
+  grid-column: 1;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 1000px) {
+  .introducao h1 {
+    margin-bottom: 25px;
+  }
+
+  .introducao p {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 850px) {
+  .header a:after {
+    display: none;
+  }
+
+  .introducao {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .introducao-bg {
+    padding-top: 30px;
+  }
+
+  .introducao {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .introducao p {
+    text-align: start;
+  }
+
+  .introducao img {
+    /* margin-left: -40px; */
+    margin-top: -30px;
+    margin-left: 30px;
+    width: 70%;
+  }
+  br {
+    display: none;
+  }
+}
+
+@media (max-width: 537px) {
+  .header {
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+  }
+
+  .header-menu {
+    justify-content: center;
+  }
+
+  .header-menu a {
+    padding: 0px;
+  }
+
+  .introducao p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 517px) {
+  .header-menu {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .introducao img {
+    margin-top: -20px;
+    margin-left: 30px;
+    width: 70%;
+  }
+}
