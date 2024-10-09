@@ -107,6 +107,9 @@
 }
 
 @media (max-width: 537px) {
+  .introducao img {
+    display: none;
+  }
   .header {
     justify-content: center;
     align-items: center;
