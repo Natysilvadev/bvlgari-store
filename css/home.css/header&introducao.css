@@ -71,13 +71,13 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .header a:after {
     display: none;
   }
 
   .introducao {
-    padding-bottom: 20px;
+    padding: 40px;
   }
 }
 
@@ -109,6 +109,7 @@
 @media (max-width: 537px) {
   .introducao {
     border-bottom: 5px solid var(--p1);
+    padding-bottom: 25px;
   }
   .introducao img {
     display: none;

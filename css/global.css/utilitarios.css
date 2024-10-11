@@ -30,3 +30,21 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.tecnologia img {
+  width: auto; /* Usa a largura original da imagem */
+  height: auto; /* Usa a altura original da imagem */
+}
+
+.link {
+  display: inline-block;
+  color: var(--p1);
+  border-bottom: 2px solid;
+  background-color: linear-gradient(#ffbfcb, #f09eae 28%, #d88596 58%);
+  padding-bottom: 4px;
+  max-width: max-content;
+}
+
+.link:hover {
+  color: var(--w);
+}
