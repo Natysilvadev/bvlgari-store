@@ -140,7 +140,11 @@
 
 @media (max-width: 517px) {
   .header-menu {
-    padding-top: 20px;
+    padding-top: 10px;
+  }
+
+  .introducao {
+    padding-top: 15px;
   }
 }
 

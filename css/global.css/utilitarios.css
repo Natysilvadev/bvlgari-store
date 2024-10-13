@@ -31,6 +31,13 @@
   margin-right: auto;
 }
 
+.container-vazado {
+  padding: 0 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .tecnologia img {
   width: auto; /* Usa a largura original da imagem */
   height: auto; /* Usa a altura original da imagem */
