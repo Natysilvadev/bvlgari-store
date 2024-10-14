@@ -1,5 +1,5 @@
 .parceiros {
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   /* padding: 0 20px; */
 }
 
@@ -39,6 +39,10 @@
 }
 
 @media (max-width: 800px) {
+  .parceiros {
+    margin-bottom: 50px;
+  }
+
   .parceiros h2 {
     margin-bottom: 30px;
     text-align: center;

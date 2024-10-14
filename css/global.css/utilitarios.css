@@ -39,8 +39,8 @@
 }
 
 .tecnologia img {
-  width: auto; /* Usa a largura original da imagem */
-  height: auto; /* Usa a altura original da imagem */
+  width: auto;
+  height: auto;
 }
 
 .link {
@@ -54,4 +54,8 @@
 
 .link:hover {
   color: var(--w);
+}
+
+.introducao-bg video {
+  max-width: 100%;
 }
