@@ -68,7 +68,6 @@
 @media (max-width: 550px) {
   .depoimento-conteudo {
     align-self: center;
-    padding: 20px;
-    padding-top: 61px;
+    padding: 61px 40px 20px 40px;
   }
 }
