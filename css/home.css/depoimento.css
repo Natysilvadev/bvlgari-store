@@ -33,26 +33,6 @@
   align-self: center;
 }
 
-.depoimento p::before,
-.depoimento p::after {
-  display: inline-block;
-  font-size: 5rem;
-  color: var(--p2);
-  position: absolute;
-}
-
-.depoimento p::before {
-  content: "“";
-  left: -30px;
-  top: -30px;
-}
-
-.depoimento p::after {
-  content: "”";
-  right: -30px;
-  bottom: -90px;
-}
-
 @media (max-width: 850px) {
   .depoimento {
     grid-template-columns: 1fr 2fr;
