@@ -66,6 +66,6 @@
 @media (max-width: 850px) {
   .seguros {
     grid-template-columns: 1fr;
-    justify-items: center;
+    /* justify-items: center; */
   }
 }
