@@ -62,8 +62,4 @@
   .depoimento {
     grid-template-columns: 1fr;
   }
-
-  .depoimento img {
-    /* display: none; */
-  }
 }

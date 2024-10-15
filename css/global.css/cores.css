@@ -1,44 +1,47 @@
-:root{
+:root {
+  --gr: linear-gradient(#ffbfcb, #eaabb7 28%, #d598a4 58%);
+  --gb: linear-gradient(#606060, #474747 100%);
+  --gg: linear-gradient(#fff, #474747 100%);
 
-  --w: #FFFFFF;
-  --p1:#FFBFCB;
-  --p2:#D598A4;
-  --p3:#AB717D;
-  --p4:#804A57;
-  --p5:#562330;
+  --w: #ffffff;
+  --p1: #ffbfcb;
+  --p2: #d598a4;
+  --p3: #ab717d;
+  --p4: #804a57;
+  --p5: #562330;
 
-  --c1:#F7F7F7;
-  --c2:#E0E0E0;
-  --c3:#C8C8C8;
-  --c4:#AEAEAE;
-  --c5:#949494;
-  --c6:#7D7D7D;
-  --c7:#606060;
+  --c1: #f7f7f7;
+  --c2: #e0e0e0;
+  --c3: #c8c8c8;
+  --c4: #aeaeae;
+  --c5: #949494;
+  --c6: #7d7d7d;
+  --c7: #606060;
   --c8: #464646;
-  --c9:#272727;
+  --c9: #272727;
   --c10: #212121;
-  --c11:#141414;
-  --c12:#000000;
+  --c11: #141414;
+  --c12: #000000;
 }
 
 .w {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .p1 {
-  color: #FFBFCB;
+  color: #ffbfcb;
 }
 
 .p2 {
-  color: #D598A4;
+  color: #d598a4;
 }
 
 .p3 {
-  color: #AB717D;
+  color: #ab717d;
 }
 
 .p4 {
-  color: #804A57;
+  color: #804a57;
 }
 
 .p5 {
@@ -46,19 +49,19 @@
 }
 
 .c1 {
-  color: #F7F7F7;
+  color: #f7f7f7;
 }
 
 .c2 {
-  color: #E0E0E0;
+  color: #e0e0e0;
 }
 
 .c3 {
-  color: #C8C8C8;
+  color: #c8c8c8;
 }
 
 .c4 {
-  color: #AEAEAE;
+  color: #aeaeae;
 }
 
 .c5 {
@@ -66,7 +69,7 @@
 }
 
 .c6 {
-  color: #7D7D7D;
+  color: #7d7d7d;
 }
 
 .c7 {

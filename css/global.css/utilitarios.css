@@ -1,7 +1,7 @@
 .botao {
   display: inline-block;
   color: var(--c12);
-  background: linear-gradient(#ffbfcb, #eaabb7 28%, #d598a4 58%);
+  background: var(--gr);
   border-radius: 5px;
   padding: 12px 20px;
   font-family: var(--fonte-secundaria);
@@ -13,6 +13,31 @@
 
 .botao:hover {
   background: linear-gradient(#ffbfcb, #f09eae 28%, #d88596 58%);
+}
+
+.botao.secundario {
+  color: var(--w);
+  background: var(--gb);
+}
+
+.botao.secundario:hover {
+  background: linear-gradient(#606060 100%, #474747);
+}
+
+.font-gr {
+  background-image: var(--gr);
+  background-clip: text; /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+  -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+  -webkit-text-fill-color: transparent; /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+  color: var(--p1);
+}
+
+.font-gg {
+  background-image: var(--gg);
+  background-clip: text; /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+  -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+  -webkit-text-fill-color: transparent; /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+  color: var(--c6);
 }
 
 @media (max-width: 550px) {
