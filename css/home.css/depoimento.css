@@ -17,6 +17,7 @@
   /* justify-content: center; */
   align-self: center;
   padding: 40px;
+  padding-top: 81px;
 }
 
 .depoimento p {
@@ -61,5 +62,13 @@
 @media (max-width: 650px) {
   .depoimento {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 550px) {
+  .depoimento-conteudo {
+    align-self: center;
+    padding: 20px;
+    padding-top: 61px;
   }
 }
