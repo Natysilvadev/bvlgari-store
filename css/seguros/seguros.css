@@ -49,7 +49,7 @@
 
 .seguros-item a {
   grid-column: 1/-1;
-  justify-self: left;
+  justify-self: flex-start;
 }
 
 .seguros-item li::before {
