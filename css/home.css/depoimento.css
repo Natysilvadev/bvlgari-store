@@ -33,7 +33,7 @@
   align-self: center;
 }
 
-.depoimento p::before,
+/* .depoimento p::before,
 .depoimento p::after {
   display: inline-block;
   font-size: 5rem;
@@ -51,7 +51,7 @@
   content: "”";
   right: -30px;
   bottom: -90px;
-}
+} */
 
 @media (max-width: 850px) {
   .depoimento {
@@ -69,5 +69,6 @@
   .depoimento-conteudo {
     align-self: center;
     padding: 61px 40px 20px 40px;
+    padding-top: 61px;
   }
 }
