@@ -84,3 +84,27 @@
 .introducao-bg video {
   max-width: 100%;
 }
+
+/* titulos internos */
+.titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--c11);
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}

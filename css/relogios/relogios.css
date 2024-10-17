@@ -8,7 +8,8 @@
 }
 
 .relogios-lista ul {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   gap: 40px;
   padding: 0 20px 0px 20px;
   max-width: 1400px;
