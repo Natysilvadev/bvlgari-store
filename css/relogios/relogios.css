@@ -1,5 +1,5 @@
-.relogio-bg {
-  background: var(--c11);
+.relogio {
+  border-top: 1px solid var(--c5);
 }
 
 .relogio {
@@ -65,6 +65,10 @@
 @media (max-width: 600px) {
   .relogios-img {
     width: 100%;
+  }
+
+  .relogio-conteudo h2 {
+    text-align: center;
   }
 }
 
