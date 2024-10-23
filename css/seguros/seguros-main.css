@@ -5,8 +5,8 @@
 .vantagens-bg {
   background: var(--c12);
   padding-top: 60px;
-  padding-bottom: 100px;
-  margin-bottom: 500px;
+  padding-bottom: 60px;
+  /* margin-bottom: 500px; */
 }
 
 .vantagens {
@@ -28,8 +28,72 @@
   justify-self: center;
 }
 
+.perguntas {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.perguntas h2 {
+  margin-bottom: 30px;
+}
+
+.perguntas dl > div {
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.perguntas dl > div {
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.perguntas dl > div:nth-child(odd) {
+  background-color: var(--c1);
+}
+
+.perguntas dt {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.perguntas dt::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--p1);
+}
+
+.perguntas dt::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background: url(/icons/seta.svg);
+  transition: 0.4s;
+}
+
+.perguntas dt:hover::after {
+  transform: rotate(180deg);
+}
+
+.perguntas dd {
+  padding-left: 20px;
+  padding-top: 15px;
+  max-width: 80ch;
+}
+
 @media (max-width: 680px) {
   .vantagens ul {
     gap: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .vantagens-bg h2,
+  .perguntas h2 {
+    text-align: center;
   }
 }
