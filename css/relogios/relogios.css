@@ -85,7 +85,7 @@
 
   .relogio-conteudo a {
     place-self: center;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .relogio-conteudo p {
