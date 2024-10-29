@@ -1,0 +1,219 @@
+.relogios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* align-items: start; */
+  padding-top: 60px;
+  padding-bottom: 60px;
+  gap: 40px;
+}
+
+.relogio-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.relogio-imagens img {
+  min-width: 200px;
+  flex: 1;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.relogio-imagens img:first-child {
+  min-width: 100%;
+}
+
+.titulo .up {
+  text-transform: uppercase;
+}
+
+.relogio-conteudo-about > p {
+  margin-bottom: 32px;
+}
+
+.relogio-conteudo-about > h2 {
+  margin-bottom: 8px;
+}
+
+.relogio-comprar {
+  display: grid;
+  gap: 8px 12px;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-items: start;
+  margin-bottom: 40px;
+}
+
+.relogio-comprar > a {
+  grid-row: span 2;
+}
+
+.relogio-comprar > span {
+  background: var(--c12);
+  padding: 2px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: 300;
+}
+
+.relogio-conteudo-about h2 {
+  letter-spacing: 0.015rem;
+  text-transform: uppercase;
+}
+
+.relogio-conteudo-about h3 {
+  font-weight: 400;
+}
+
+.relogio-informacoes {
+  margin-bottom: 40px;
+}
+
+.relogio-informacoes,
+.relogio-ficha {
+  padding: 32px;
+  background: var(--c12);
+  border-radius: 4px;
+}
+
+.relogio-informacoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-content: start;
+  justify-content: start;
+}
+
+.relogio-ficha li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.relogio-ficha li {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0 2px 0;
+  border-bottom: 1px var(--c11) solid;
+}
+
+.relogio-ficha li :first-child {
+  padding: 0px 0 2px 0;
+}
+
+.relogio-ficha li:last-child {
+  border-bottom: none;
+}
+
+.relogio-ficha span {
+  color: var(--c5);
+}
+
+.seguros-anuncio-bg {
+  background: var(--c11);
+  border-radius: 0px;
+  /* margin-bottom: 50px; */
+  /* margin-bottom: 100px; */
+  /* box-shadow: inset 0 60px var(--w), inset 0 -80px var(--c12); */
+}
+
+.seguros-anuncio img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.seguros-anuncio {
+  /* padding: 20px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.anuncio-conteudo {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .seguros-anuncio {
+    padding: 20px;
+  }
+
+  .seguros-anuncio h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .relogios {
+    grid-template-columns: 1fr;
+  }
+
+  .relogio-conteudo-about {
+    grid-row: 1;
+    gap: 2s0px;
+  }
+
+  .relogios {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 850px) {
+  .relogio-comprar {
+    justify-content: center;
+  }
+
+  .relogio-conteudo-about > p {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .relogio-imagens {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .relogio-imagens .img1 {
+    grid-column: 1/-1;
+  }
+}
+
+@media (max-width: 550px) {
+  .img2,
+  .img3,
+  .img4,
+  .img5 {
+    display: none;
+  }
+
+  .relogio-conteudo-about {
+    grid-row: 2;
+  }
+
+  .relogio-imagens {
+    grid-template-columns: 1fr;
+  }
+
+  .relogio-informacoes {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .seguros-anuncio {
+    grid-template-columns: 1fr;
+    padding: 20px 0px 0 0px;
+  }
+
+  .anuncio-conteudo {
+    grid-row: 1;
+    text-align: center;
+    align-items: center;
+    padding: 0px 10px;
+  }
+}
