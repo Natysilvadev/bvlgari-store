@@ -47,13 +47,15 @@
 
 .relogio-comprar > a {
   grid-row: span 2;
+  max-width: max-content;
 }
 
 .relogio-comprar > span {
   background: var(--c12);
   padding: 2px 8px;
   border-radius: 4px;
-  display: inline-block;
+  /* justify-self: center; */
+  /* align-self: center; */
   font-weight: 300;
 }
 
@@ -214,6 +216,6 @@
     grid-row: 1;
     text-align: center;
     align-items: center;
-    padding: 0px 10px;
+    padding: 20px 10px;
   }
 }
