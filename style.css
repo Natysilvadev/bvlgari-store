@@ -5,6 +5,7 @@
 @import url(./css/global.css/utilitarios.css);
 @import url(/css/global.css/header&introducao.css);
 @import url(/css/global.css/footer.css);
+@import url(/css/global.css/formulario.css);
 
 /* relogios */
 @import url(/css/relogios/relogios-lista.css);
@@ -22,3 +23,7 @@
 
 /* termos */
 @import url(/css/termos/termos.css);
+
+/* contato */
+@import url(/css/contato/contato.css);
+@import url(/css/contato/lojas.css);
