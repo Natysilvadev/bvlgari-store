@@ -1,0 +1,40 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form label {
+  display: block;
+  font: 500 1rem/1.5 "poppins", sans-serif;
+  margin-bottom: 4px;
+}
+
+.form .col-2 {
+  grid-column: span 2;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  font: 400 1rem/1.45 "roboto" sans-serif;
+  background: var(--c1);
+  border: 1px solid var(--c2);
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+  background: var(--w);
+  border-color: var(--p2);
+  box-shadow: 0px 0px 5px #f6b7c3;
+  outline: none;
+}
+
+.form .botao {
+  justify-self: start;
+}
