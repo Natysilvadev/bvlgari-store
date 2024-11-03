@@ -73,9 +73,14 @@
 
 .my-textarea {
   line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {
+  .my-textarea {
+    margin-bottom: 0px;
+  }
+
   .contato {
     grid-template-columns: 1fr;
     /* text-align: center; */

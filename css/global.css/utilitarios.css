@@ -111,3 +111,7 @@
     font-weight: 400;
   }
 }
+
+.up {
+  text-transform: uppercase;
+}
